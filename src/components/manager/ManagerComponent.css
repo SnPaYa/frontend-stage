@@ -1,0 +1,47 @@
+.manager-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .btn-custom {
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  

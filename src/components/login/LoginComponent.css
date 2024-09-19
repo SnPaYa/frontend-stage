@@ -1,0 +1,104 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.login-background {
+  background: url('https://cdn.dribbble.com/userupload/2767724/file/original-d1d981fe8e80c0f2bf6c9f302b714e7d.jpg?compress=1&resize=1024x791') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.login-error {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.login-button {
+  background-color: #102bde;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #123fdf;
+  transform: translateY(-2px);
+}
+
+.login-link {
+  text-align: center;
+  color: #3498db;
+  font-size: 14px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}

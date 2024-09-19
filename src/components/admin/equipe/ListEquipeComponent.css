@@ -1,0 +1,68 @@
+/* ListEquipeComponent.css */
+
+/* Container styling */
+.list-equipe-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px; /* Largeur de la sidebar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #343a40; /* Couleur de fond de la sidebar */
+    color: #fff; /* Couleur du texte */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Ombre portée pour la sidebar */
+}
+
+.content {
+    margin-left: 250px; /* Ajuster la marge pour laisser de l'espace pour la sidebar */
+    padding: 20px;
+    flex: 1;
+    background-color: #f8f9fa;
+}
+
+/* Card styling */
+.equipe-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+}
+
+.btn-rounded {
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body .form-control {
+    border-radius: 10px;
+}

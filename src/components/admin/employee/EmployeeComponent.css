@@ -1,0 +1,91 @@
+.employee-page {
+  background-color: #f8f9fa;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.sidebar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.employee-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.employee-form-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+h2 {
+  color: #333;
+  font-weight: 600;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.default-photo {
+  font-size: 120px;
+  color: #6c757d;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
